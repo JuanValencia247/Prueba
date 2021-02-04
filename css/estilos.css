@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background: #CEEEEA;
+    background-image: url(vaca.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:top;
+    background-attachment: fixed;
+
+	}
+
+.navegacion{
+	width: 650px;
+	margin: 20px auto;
+	background: #BADB6E;
+}
+.navegacion ul{
+	list-style: none;
+
+}
+.menu >li{
+	position: relative;
+	display: inline-block;
+}
+.menu >li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #3E4FA2;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+.menu li a:hover{
+	color: #FE2E2E;
+	transition: all 0.3s;
+}
+.submenu1 {
+	position: absolute;
+	background: #D8D8D8;
+	display: none;
+}
+.submenu1 li a{
+	display: block;
+	padding: 13px;
+	color: #000000;
+	font-family: 'Open sans';
+	text-decoration: none;  
+}
+.menu li:hover .submenu1{
+	display: block;
+}
+
+
+
+#mover{
+    padding: 50px;
+    color: #30377D;
+}
+#mover1{
+    padding: 25px;
+    color: darkblue;
+}
+#tex1{
+    padding: 25px;
+    margin: 0px 75px;/*mover izquierda o derecha*/
+    font-size: 120%;
+    color: #ffee7
+}
+.fondo2{
+    margin-top:500px;
+    height: 850px;
+    background: #FFFFFF;
+}
+
+#mover2{
+    padding: 25px;
+    color: #30377D;
+}
+#tex2{
+    padding: 25px;
+    margin: 0px 215px;/*mover izquierda o derecha*/
+    font-size: 120%;
+    color: #ffee7
+}
+
+.fondo3{
+    height: 350px;
+    margin-top: -1.9em;
+    background: #E2E3EC;
+}
+
+.fondo4{
+    height: 150px;
+    margin-top: -1.9em;
+    background: #97D2AD;
+}
+
+#tex3{
+    padding: 25px;
+    margin: 0px 215px;/*mover izquierda o derecha*/
+    font-size: 75%;
+    color: #ffee7
+}
+
